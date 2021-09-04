@@ -1,0 +1,62 @@
+This program will use Turtle to create graffiti over a picture of Jeff Bezos.
+
+Initialize turtle
+Pen up
+
+#moustache
+
+Go to center upper lip
+Make line thick
+Color = black (default)
+Pen down
+
+Start on right wing
+	Large semicircle, start clockwise, less than 180 degrees
+	Smaller semicircle, start counterclockwise, 180 to 270 degrees
+	Large semicircle, counterclockwise, to center of moustache
+		Fill in shape
+
+Start on left wind
+	Large semicircle, start counterclockwise, less than 180 degrees
+	Smaller semicircle, start clockwise, 180 to 270 degrees
+Large semicircle, clockwise, to center of moustache
+	Fill in shape
+
+Pen up
+
+#earwax
+
+Go to lower ear near earhole
+Turtle speed = slow
+Color = yellow
+Make lines thin
+Pen down
+
+Draw filled polygon to create a lump of wax
+	Fill = yellow
+Pen up
+
+#beard
+
+Go to chin
+Color =  black
+Thick line thickness
+Pen down
+
+Draw upside down triangle
+	Fill shape
+Pen up
+
+#glasses
+
+Go up from beard to left eye
+Pen down
+Color = pink
+Draw circle
+Draw top of glasses
+Draw right eye
+Pen up
+
+Go to left eyebrow
+Color = black
+Make carrot shapes to draw a unibrow
